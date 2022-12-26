@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+body
+{
+    font-family: 'Noto Sans Tc',sans-serif;
+}
+.tikla,
+.firsatekran
+{
+    
+  margin-left: 200px;
+  
+   background: #2981bc;
+   color: white;
+   font-family: arial;
+   font-weight: bold;
+   text-align: center;
+   padding: 10px 15px;
+   border: 1px solid #0059b3;
+   border-radius: 5px;
+
+}
+.firsatekran
+{
+    user-select: none;
+    width: 400px;
+    background: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #b3b3b3;
+    box-shadow: 0px 5px 10px rgba(0,0,0,2);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+.firsatekran i
+{
+font-size: 60px;
+color: #eb9447;
+border: 5px solid #eb9447;
+padding: 20px 40px;
+border-radius: 50%;
+margin: -10px 0 20px 0;
+}
+.firsatekran h1
+{
+    font-size: 30px;
+    color: #1b2631;
+    margin-bottom: 5px;
+}
+.firsatekran label
+{
+    font-size: 23px;
+    color: #404040;
+}
+.firsatekran .butonlar
+{
+    margin: 40px 0 0 0;
+}
+.butonlar .btnHayir, .butonlar .btnEvet
+{
+    background: #999999;
+    color: white;
+    font-size: 18px;
+    padding: 12px 35px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+.butonlar .btnEvet
+{
+    background: #ff3333;
+    margin-left:20px;
+    border:1px solid#cc0000;
+}
+.btnHayir:hover
+{
+transition: .5s;
+background: #8c8c8c;
+}
+.btnEvet:hover
+{
+transition: .5s;
+background: orange;
+}

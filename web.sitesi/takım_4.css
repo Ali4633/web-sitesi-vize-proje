@@ -1,0 +1,19 @@
+.tak{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tak2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.takım_ali{
+    margin-right: 150px;
+    
+}
+
+
+.takım_ibo{
+    margin-left: 100px;
+}

@@ -1,0 +1,29 @@
+.acıklama{   
+    max-width: 100%;
+    margin-top: 20px;
+      
+}
+.hakkında{
+    display: flex;
+    
+    
+}
+.hakkında h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3vw;
+    margin-left: 40%;
+}
+.hakkında_yazı pre{
+    font-size: 1.8vw;
+    color: black;
+    font-family: 'Righteous', cursive;
+    margin-left: 20%;
+
+}
+@media  screen and (max-width:768px){
+    .acıklama{
+        margin-top: -40px;
+        transition: 0.5s;  
+        
+    }
+}

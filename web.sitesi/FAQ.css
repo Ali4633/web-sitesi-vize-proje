@@ -1,0 +1,129 @@
+.FAQ{
+    width: 100%;
+    
+    
+
+}
+.baslık_faq h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3vw;
+    margin-left: 45%;
+    display: flex;
+}
+#soru_1{
+    max-width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(2, 2, 2);
+    margin-left: 30%;
+
+
+}
+#soru_1 h2{
+  color: aqua;
+}
+
+#cevap_1{
+    max-width: 600px;
+    height: 40px;
+    margin-left: 40%;
+    display: none;
+    
+}
+#soru_2{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(2, 2, 2);
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+#soru_2 h2{
+    color: aqua;
+}
+#cevap_2{
+    width: 800px;
+    height: 40px;
+    margin-left: 30%;
+    display: none;
+}
+#soru_3{
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(2, 2, 2);
+    margin-left: 30%;
+    margin-top: 20px;
+}
+#soru_3 h2{
+    color: aqua;
+}
+#cevap_3{
+    width: 600px;
+    height: 40px; 
+    margin-left: 40%;
+    display: none;
+}
+#soru_4{
+    width: 500px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(2, 2, 2);
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#soru_4 h2{
+    color: aqua;
+
+}
+#cevap_4{
+    width: 800px;
+    height: 40px;
+    margin-left: 30%;
+    display: none;
+}
+
+.baslık_faq h2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    margin-left: 40px;
+}
+@media screen  and (max-width:900px){
+    #soru_1{
+        margin-left: 20px;
+        
+    }
+    #cevap_1{
+        margin-left: 20px;
+    }
+    #soru_2{
+        margin-left: 20px;
+    }
+    #cevap_2{
+        margin-left: 20px;
+    }
+    #soru_3{
+        margin-left: 20px;
+    }
+    #cevap_3{
+        margin-left: 20px;
+    }
+    #soru_4{
+        margin-left: 20px;
+        width: 400px;
+    }
+    #cevap_4{
+        margin-left: 20px;
+    }
+    .baslık_faq h2{
+        font-size: 15px;
+    }
+
+}

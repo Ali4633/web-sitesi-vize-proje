@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="firsatbuton.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+    $(document).ready(function(){
+$('.tikla').click(function(){
+$('.firsatekran').css({
+"opacity":"1", "pointer-events":"auto"
+});
+});
+$('.btnHayir').click(function(){
+$('.firsatekran').css({
+"opacity":"0","pointer-events":"none"
+});
+});
+$('.btnEvet').click(function(){
+$('.firsatekran').css({
+"opacity":"0","pointer-events":"none"
+});
+alert("BAŞARILI -- Sayfaya yönlendiriliyorsunuz.!.");
+});
+    });
+</script>
+    
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <a href="#" class="tikla">FIRSAT!</a>
+    <div class="firsatekran">
+<i class="fas fa-exclamation"></i>
+<h1>iPhone 13 Kazandınız!!</h1>
+<label>Bedavaya almak ister misin??</label>
+<div class="butonlar">
+    <a href="#" class="btnHayir">Hayır</a>
+    <a href="http://127.0.0.1:5500/iphone.html" class="btnEvet">Evet</a>
+</div>
+
+
+
+    </div>
+    
+</body>
+</html>

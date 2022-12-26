@@ -1,0 +1,9 @@
+body{
+    background-image: url("/web.sitesi/resim/arkap4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}

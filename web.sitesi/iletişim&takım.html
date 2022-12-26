@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takım ve İletişim</title>
+    <meta name="author" content="Ferhat DIKMEN">
+    <meta name="description" content="Information About Team and Communication">
+    <link rel="stylesheet" href="/web.sitesi/ınfo.css">
+    <link rel="stylesheet" href="/web.sitesi/ana.css">
+    <link rel="stylesheet" href="/web.sitesi/footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+    <script src="Info.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+    <script type="text/javascript"> function fonk1(){window.alert('Mesajınız Tarafımıza İletilmiştir (!)');}</script>
+    <link rel=”stylesheet” href=”css/bootstrap.min.css” />
+    <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js“></script>
+    <script src=”js/bootstrap.min.js” ></script>
+     
+</head>
+<body>
+    
+    <nav class="menu_bar">
+               
+        <div class="bar">
+            <a href="/web.sitesi/index.html">Ana Sayfa</a>
+            <a href="/satınn.php">Satın Al</a>
+            <a href="/web.sitesi/iletişim&takım.html">Takım & İletişim</a>
+        </div>
+        
+        <div class="sosyal_medya">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/egiddo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://discord.gg/MBAuJQ85" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <div  class="menu_icon">
+            <div id="bar"><i class="fa-solid fa-bars"></i></div>      
+        </div>  
+    </nav>
+    
+    
+     <br><br><br>
+
+     <div class="anacerceve">
+     
+      <div class="anacerceve_ust">  
+      <p id="BizeUlasin">BİZE ULAŞIN</p>
+      </div>
+
+      <form class="form" action="" method="POST">
+         Adınız     <hr class="hr_ad">  <input class="IletisimInput" name="name" type="text" required ><br><br>
+          Soyadınız  <hr class="hr_soyad">  <input class="IletisimInput_Soyad" name="surname" type="text" required ><br><br>
+          E-Postanız <hr class="hr_mail">  <input class="IletisimInput_Mail" name="email" type="email" required > <br><br>
+          
+          
+          
+          Sorunun Türü nedir? 
+          <hr id="hr_sorun_turu">
+          <select class="select_option"  name="sorun"  >
+              <option value="seciniz"          class="optionlar" selected>Seçiniz</option>
+              <option value="mali_islem"       class="optionlar">Mali İşlemler</option>
+              <option value="site_hakkinda"    class="optionlar">Site Hakkında</option>
+              <option value="urunler_hakkinda"  class="optionlar">Ürünler Hakkında</option>
+              <option value="fiyatlandirma"    class="optionlar">Fiyatlandırma</option>
+          </select>
+
+          <br><br>
+
+         
+         
+         Sitemizden daha önce <br> satın alım yaptınız mı?<hr class="hr_radiobutton">
+          
+          <input type="radio" name="cevap" value="evet" class="radiobutonlar"required>
+          <label>Evet</label><br>
+
+          <input type="radio" name="cevap" value="hayir" class="radiobutonlar"required>
+          <label>Hayır</label><br><br>
+
+          Telefon Numaranız<hr class="hr_tel">
+          <input type="tel" class="numara" name="telefon" required>
+          <br><br>
+
+          Eklemek İstediğiniz Dosya<br>(Opsionel)<hr class="hr_dosya">
+          <input type="file" style="color:transparent;" name="dosya" class="dosya" onchange="this.style.color = 'black';"/>
+          <br>
+
+          İletmek İstediğiniz Mesaj
+          <hr class="hr_textarea">
+          <br>
+
+      
+          <textarea id="mesajAlanıId" class="mesajAlanıClass" name="mesaj" placeholder="Mesajınızı Buraya Yazınız..."></textarea>
+     
+      
+
+<input type="submit" name=" gonder"> </input>
+      </form>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!--
+    <footer class="bg-dark p-3 w-100">
+        <div class="container w-100">
+            <ul class="d-inline-block">
+                <li><a href="#">Hakkımızda</a></li>
+            </ul>
+        </div>
+    </footer>
+     -->
+
+     <footer class="footer-distributed">
+
+        <div class="footer-left">
+  
+          <h3>TİKİ<span>taka</span></h3>
+  
+          <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+                           
+            <a href="/web.sitesi/satın2_al.html">Satın al</a>
+            
+            <a href="/web.sitesi/iletişim&takım.html">Contact</a>
+          </p>
+  
+          <p class="footer-company-name">TELİF HAKLARI SAKLIDIR. © 2022 </p>
+        </div>
+  
+        <div class="footer-center">
+  
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>TOROS ÜNİVERSİTESİ</span>Mezitli Kampüsü</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+90 554 190 28 33</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>akgulali46333@gmail.com</p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about">
+            <span>Detaylı Bilgi</span>
+            Bize detaylı bilgi ve şikayetleriniz için alttaki sosyal medya hesaplarımızdan ulaşabilir siniz?
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href=><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/egiddo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://discord.gg/MBAuJQ85" target="_blank"><i class="fa-brands fa-discord"></i></a>      
+          </div>
+          
+        </div>
+  
+      </footer>
+
+    
+</body>
+</html>

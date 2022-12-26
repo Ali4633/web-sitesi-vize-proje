@@ -1,0 +1,29 @@
+.tanım{
+    display: flex;
+    max-width: 100%;    
+}
+.yazı{   
+    margin-left: 17%;
+}
+.yazı h1{
+    font-size: 5vw;
+    color: black;
+    font-family: 'Nosifer', cursive;
+}
+.yazı h1:nth-child(1){
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.yazı h1:nth-child(2){
+    margin-left: 30%;
+    margin-top: -10%;
+}
+.yazı pre{
+    font-size: 2vw;
+    font-family: 'Righteous', cursive;
+    margin-right: 10%;
+    
+}
+.salah img{
+    max-width: 100%;   
+}

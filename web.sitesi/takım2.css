@@ -1,0 +1,38 @@
+.takım_yazı{
+    max-width: 100%;   
+    
+}
+.takım_yazı h1{
+    color: black;
+    margin-left: 43%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3vw;
+}
+
+.takım{
+    max-width: 100%;
+    display: flex;      
+}
+.icerik img{
+    max-width: 60%;
+
+}
+.icerik h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.3vw;
+}
+.icerik h2{
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.2vw;
+    padding-right: 40px;
+}
+.icerik h1:nth-child(1){
+    margin-left: 10px;
+    
+}
+.kişiler{
+    margin-left: 5%;
+    width: 23%;
+    margin-top: 20px;
+    
+}

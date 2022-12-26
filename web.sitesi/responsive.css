@@ -1,0 +1,20 @@
+@media screen and (max-width:1200px) {
+    .urunler{ flex-wrap: wrap;}
+    .urun{
+        width: 48%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .urunler{
+        width: 100%;
+    }
+   
+    .urun button{
+        width: 200px;
+        height: 100px;
+    }
+
+    
+}

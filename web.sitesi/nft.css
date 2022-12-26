@@ -1,0 +1,143 @@
+.urunler img{
+    width: 80%;
+    border-radius: 15px;
+}
+.urunler{
+    display: flex;
+    width: 97%;
+    margin-left: 2%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.urun{
+    width: 22%;
+    
+      
+}
+.urunler h1{
+    font-family: 'Coiny', cursive;
+    font-size: 30px;
+}
+.urunler h2{
+    font-family: 'Coiny', cursive;
+    margin-top: -10px;
+}
+.urunler i{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-right: 175px;
+    color: #6e54b9;
+    
+    
+}
+.urunler h3{
+    margin-top: -25px;
+    margin-right: 100px;
+    font-family: 'Coiny', cursive;
+}
+.urunler h4{
+    margin-top: -48px;
+    margin-left: 160px;
+    margin-right: 100px;
+    font-family: 'Coiny', cursive;
+    
+}
+
+.urun button{
+    margin-top: -20px;
+    margin-left: 40px;
+}
+ .urun_salah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: justify;
+    
+    
+}
+
+ .urun_s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    height: 100px;
+    margin: 40px;
+    margin-left: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 8px rgb(167, 11, 11);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+button :hover{
+    border: none;
+    border-radius: 40px;
+    box-shadow: inset 0 0 20px #3106b3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#foot{
+    position: relative;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow:  inset 0 0 100px rgba(241,5,81,255);
+    background-color: #a3a0a0;
+    
+    animation-duration: 5s;
+    
+}
+.btn{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f8fc;
+    border: 2.5px solid #0e172c;
+    transition: background-color 2.2s;
+    transition-duration: 3s;
+    transition: 1.5s;
+
+}
+.btn :hover{
+    
+    top: 10px;
+    background: linear-gradient(rgba(241,5,81,255),rgba(235, 88, 0));
+}
+.btn a{
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 1.5s;
+
+}
+.btn a:hover{
+    letter-spacing: 3px;
+
+}
